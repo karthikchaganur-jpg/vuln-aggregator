@@ -1,0 +1,26 @@
+[
+  {
+    "host": "web-prod-01.internal",
+    "plugin_name": "OpenSSL Heartbleed Information Disclosure",
+    "synopsis": "The remote host is affected by an information disclosure vulnerability.",
+    "cve": "CVE-2014-0160",
+    "severity": 4,
+    "cvss_base_score": 9.4
+  },
+  {
+    "host": "web-prod-01.internal",
+    "plugin_name": "SSH Weak Algorithms Supported",
+    "synopsis": "The remote SSH server supports weak encryption algorithms.",
+    "cve": null,
+    "severity": 2,
+    "cvss_base_score": 4.3
+  },
+  {
+    "host": "db-prod-02.internal",
+    "plugin_name": "Unsupported PostgreSQL Version",
+    "synopsis": "The remote database is running an unsupported version.",
+    "cve": "CVE-2023-5869",
+    "severity": 3,
+    "cvss_base_score": 7.2
+  }
+]

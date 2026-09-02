@@ -1,0 +1,26 @@
+[
+  {
+    "endpoint_url": "https://api.example.com/v2/orders",
+    "vulnerability_name": "Insecure Direct Object Reference (IDOR)",
+    "details": "Authenticated user can access other users' orders by changing the order_id parameter.",
+    "cve_reference": null,
+    "risk_level": "Critical",
+    "cvss": 8.6
+  },
+  {
+    "endpoint_url": "https://api.example.com/v2/orders",
+    "vulnerability_name": "Reflected Cross-Site Scripting",
+    "details": "The 'q' search parameter reflects unescaped input.",
+    "cve_reference": null,
+    "risk_level": "Medium",
+    "cvss": 5.4
+  },
+  {
+    "endpoint_url": "https://api.example.com/v1/login",
+    "vulnerability_name": "SQL Injection",
+    "details": "The 'username' field on the login form is vulnerable to boolean-based blind SQLi.",
+    "cve_reference": null,
+    "risk_level": "Critical",
+    "cvss": 9.1
+  }
+]

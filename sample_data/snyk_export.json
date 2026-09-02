@@ -1,0 +1,26 @@
+[
+  {
+    "projectName": "web-prod-01.internal",
+    "title": "OpenSSL Heartbleed Information Disclosure",
+    "description": "Vulnerable OpenSSL version detected in base image.",
+    "identifiers": { "CVE": ["CVE-2014-0160"] },
+    "severity": "critical",
+    "cvssScore": 9.4
+  },
+  {
+    "projectName": "checkout-service",
+    "title": "Prototype Pollution in lodash",
+    "description": "A prototype pollution vulnerability was found in lodash < 4.17.21.",
+    "identifiers": { "CVE": ["CVE-2020-8203"] },
+    "severity": "high",
+    "cvssScore": 7.4
+  },
+  {
+    "projectName": "checkout-service",
+    "title": "Regular Expression Denial of Service (ReDoS)",
+    "description": "A ReDoS vulnerability was found in a transitive dependency.",
+    "identifiers": { "CVE": [] },
+    "severity": "medium",
+    "cvssScore": 5.3
+  }
+]
