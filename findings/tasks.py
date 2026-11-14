@@ -9,7 +9,7 @@ from .models import Finding
 @shared_task
 def validate_finding(finding_id: int):
     """
-    Simulates what Strobes' exploit agents actually do: take a raw finding
+    Simulates an exploit-validation workflow: take a raw finding
     and attempt to prove it's exploitable in an isolated environment.
 
     Here we fake the "attempt" with a short delay and a weighted random

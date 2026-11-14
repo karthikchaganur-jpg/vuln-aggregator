@@ -3,7 +3,7 @@
 A backend-only Django/DRF/Celery project that ingests findings from multiple
 security scanners, deduplicates them, prioritizes by business risk, and
 runs an async "exploit validation" step against them. It's a small-scale
-version of what an exposure-validation platform like Strobes does.
+version of an exposure-validation platform.
 
 ## What it does
 
